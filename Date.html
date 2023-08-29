@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Date Example()</h1>
+
+<p>JavaScript will counts months from 0 to 11, higher than 11 means it will jump to the next year.</p> 
+<p id="demo"></p>
+
+<script>
+const d = new Date(2023, 9, 4, 10, 3, 10, 0);
+document.getElementById("demo").innerHTML = d;
+</script>
+
+
+
+<h2> When it comes to Date Objects we have 9 ways to create new date objects</h2>
+
+<p> 
+    new Date()
+    new Date(date string)
+    
+    new Date(year,month)
+    new Date(year,month,day)
+    new Date(year,month,day,hours)
+    new Date(year,month,day,hours,minutes)
+    new Date(year,month,day,hours,minutes,seconds)
+    new Date(year,month,day,hours,minutes,seconds,ms)
+    
+    new Date(milliseconds) 
+</p>
+</body>
+</html>
